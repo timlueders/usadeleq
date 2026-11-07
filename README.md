@@ -1,5 +1,7 @@
-# usadeleq
-solving the usadel-eq with a relaxation method from numerical recipes
+# Usadel equation
+
+We provide code to solve the usadel equation with a relaxation method from numerical recipes. 
+Upon solving this differential equation, one may describe the density of states of superconducting hybridstructures.
 
 This repository contains code supporting the bachelor thesis of Tim Lüders, University of Greifswald.
 As described in the thesis, the used code consists of the files 
@@ -13,6 +15,3 @@ As described in the thesis, the used code consists of the files
   main.cpp      (given here)
   
   with minor additions to nr3.h and Solvde.h discussed in the thesis. 
-  
-  With this code and the additional file one can solve the Usadel-transport-equation and from this obtain the retarded green's function, which yields the local density of states.
-  With the density of states we can deduct important properties of the present System, such as if there are superconducting effects anywhere over the domain.
